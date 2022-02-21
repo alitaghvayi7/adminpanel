@@ -1,0 +1,54 @@
+.userInfoEditForm {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.UserInfoEditFormLeft,.UserInfoEditFormRight{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+.UserInfoEditFormLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.userEditInput{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+.userInfoEditPicture{
+    width: 140px;
+    height: 140px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.userEditSubmitBuuton{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: rgb(248, 248, 248);
+    background-color: lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label[for="userEditProfilePicture"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}

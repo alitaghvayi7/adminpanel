@@ -1,0 +1,49 @@
+.createUserForm{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+}
+.createUserFormLeft,.createUserFormRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.createUserInputGroup{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.createUserInputGroup >label {
+    color: rgb(144, 144, 144);
+    font-weight: bold;
+}
+.createUserInput{
+    border:2px solid rgb(146, 146, 146);
+    padding: 15px;
+    color: rgb(146, 146, 146);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.createUserFormLeft > .createUserInputGroup:nth-child(4){
+    flex-direction: row;
+    justify-content: space-around
+}
+.createUserFormLeft > .createUserInputGroup:nth-child(4) > fieldset{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.createUserFormLeft > .createUserInputGroup:nth-child(4) > fieldset > input[type='radio']{
+    accent-color: #5550bd;
+}
+.createUserButtonSubmit{
+    width: 200px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: teal
+}

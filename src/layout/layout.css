@@ -1,0 +1,8 @@
+.app{
+    display: flex;
+}
+.mainContent{
+    flex: 4;
+    padding: 20px;
+    overflow: hidden;
+}

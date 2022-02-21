@@ -1,0 +1,29 @@
+.transactionPersonProfile{
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 6px;
+}
+.tranactionPersonName{
+    font-weight: 700;
+}
+.transActionsBodyRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transActionsBodyCell:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transActionsBodyCell{
+    display: flex;
+    align-items: center;
+}
+.transactionDate,.transactionPrice{
+    text-align: center;
+    color: rgb(126, 126, 126);
+}

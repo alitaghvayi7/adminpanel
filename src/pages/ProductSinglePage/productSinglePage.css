@@ -1,0 +1,95 @@
+.productSingleContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.productSingleHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productSingleTitle{
+    font-size: 32px;
+}
+.productSingleCreateProduct{
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}
+.productSingleBody{
+    display: flex;
+    column-gap: 20px;
+    height: 200px;
+}
+.productSingleBodyLeft{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 12px 0px #ededed;
+    box-shadow: 0px 0px 12px 0px #ededed;
+    border-radius: 5px;
+    padding: 10px;
+}
+.productSingleBodyRight{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 12px 0px #ededed;
+    box-shadow: 0px 0px 12px 0px #ededed;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ProductInfoEditForm {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  .ProductInfoEditFormLeft,.ProductInfoEditFormRight{
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+  }
+  .ProductInfoEditFormLeft{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+  }
+  .ProductEditInput{
+      width: 100%;
+      height: 30px;
+      border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .ProductInfoEditPicture{
+      width: 140px;
+      height: 140px;
+      border-radius: 12px;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+  .ProductEditSubmitBuuton{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 10px 15px;
+      font-weight: 600;
+      color: rgb(248, 248, 248);
+      background-color: lightcoral;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  label[for="ProductEditProfilePicture"]{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: teal;
+      color: #fff;
+      cursor: pointer;
+      position: absolute;
+      top: 20%;
+      right: 50%;
+  }

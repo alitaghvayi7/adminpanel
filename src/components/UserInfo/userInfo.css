@@ -1,0 +1,48 @@
+.userInfoContainer {
+  width: 100%;
+  padding: 25px 15px;
+  -webkit-box-shadow: 0px 0px 12px 0px #ededed;
+  box-shadow: 0px 0px 12px 0px #ededed;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  border-radius: 5px;
+}
+.userInfoProfileAndJob{
+  display: flex;
+  align-items: center;
+}
+.userInfoProfile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.userInfoJobContainer{
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.userInfoName{
+  font-weight: 600;
+}
+.userInfoJob{
+  color: rgb(168, 168, 168);
+}
+.userInfoAccountDetail{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.userInfoAccountDetailItem{
+  display: flex;
+  align-items: center;
+}
+.userInfoAccountTitle{
+  color: rgb(158, 158, 158);
+}
+.userInfoAccountItemIcon{
+  margin-right: 12px;
+  font-size: 20px!important;
+}

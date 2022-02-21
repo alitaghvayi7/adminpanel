@@ -1,0 +1,40 @@
+.productssList{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.productListItem{
+    display: flex;
+    align-items: center;
+}
+.productPageActions{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.productListItem > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+.editProductPageButton{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 168, 8);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    column-gap: 6px;
+}
+.DeleteProductPageButton{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 51, 19);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    column-gap: 6px;
+}

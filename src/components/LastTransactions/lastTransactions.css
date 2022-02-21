@@ -1,0 +1,40 @@
+.transActionsTable{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.transActionsHeaderTable,.transActionsBodyTable{
+    width: 100%;
+}
+.tranactionsHeaderRow{
+    display: flex;
+    align-items: center;
+
+}
+.transActionsHeaderCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    
+}
+.transActionsHeaderCell:nth-child(2){
+    margin-left: 15px;
+}
+.transActionsHeaderCell:nth-child(3){
+    margin-left: 50px;
+}
+.transActionsHeaderCell:nth-child(4){
+    justify-content: flex-end;
+}
+.transActionsHeaderCell:nth-child(1){
+    flex: 1.5;
+    justify-content: flex-start;
+}
+.transActionsBodyTable{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}

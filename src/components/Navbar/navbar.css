@@ -1,0 +1,58 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.navbarLogo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(47, 47, 47);
+}
+.rightNavbar{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+.navbarIconContainer{
+    display: flex;
+    align-items: center;
+}
+.navbarIconItem{
+    position: relative;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.navbarIcon{
+    color: #222;
+    font-size: 26px!important;
+}
+.navbarLogoBadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.navbarProfile{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}

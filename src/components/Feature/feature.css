@@ -1,0 +1,36 @@
+.featureItem {
+  width: 14rem;
+  height: 9rem;
+  -webkit-box-shadow: 0px 0px 12px 0px #EDEDED; 
+  box-shadow: 0px 0px 12px 0px #EDEDED;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.featureTitle{
+    font-size: 20px;
+}
+.featurePriceInfo,.featureState{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featurePrice{
+    font-size: 24px;
+    font-weight: bold;
+}
+.featureIcon{
+    font-size: 18px!important;
+    margin-left: 6px; 
+}
+.featureIcon.negative{
+    color: red;
+}
+.featureIcon.positive{
+    color: green;
+}
+.featureDesc{
+    color: #a1a1a1;
+}
